@@ -87,3 +87,8 @@ body{
     height: 200px;
     border-radius: 25px;
 }
+.product-heading{
+    text-align: center;
+    margin: 20px;
+    letter-spacing: 2px;
+}
