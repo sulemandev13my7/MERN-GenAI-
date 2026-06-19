@@ -101,7 +101,11 @@ body {
   .top-food-section-text{
     width: 100%;
   }
+  .image-logo {
+    flex-direction: column;
+  }
 }
+
 .food-price{
   color: brown;
   font-weight: bold;
