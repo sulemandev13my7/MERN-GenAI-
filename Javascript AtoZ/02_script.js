@@ -53,15 +53,59 @@
 
 
 // Marks agar 90-100 A+
-let num = 79;
+// let num = Number(prompt("Enter Your Marks"));
 
-if(num >=80 && num <= 100){
-    console.log(`Congrajulation You are Win ${num}`);
-}else if(num >=70 && num < 80){
-    console.log(`First You are Win ${num}`);
-}else if(num >=70 && num < 80){
-    console.log(`Second You are Win ${num}`);
-}else{
-    console.log(`You are Faild ${num}`);
-}
-console.log(`Program is End`)
+// if(num >=80 && num <= 100){
+//     console.log(`Congrajulation You are Win ${num}`);
+// }else if(num >=70 && num < 80){
+//     console.log(`First Grade You are Win ${num}`);
+// }else if(num >=60 && num < 70){
+//     console.log(`Second Grade You are Win ${num}`);
+// }else if(num >=0 && num < 60){
+//     console.log(`Third Grade You are Win ${num}`);
+// }else{
+//     console.log(`You are Faild ${num}`);
+// }
+// console.log(`Program is End`)
+
+// let age = Number(prompt(`Enter Your Number`));
+// let EntryTicket = false;
+
+// if (age <= 18) {
+//     console.log(`You are Eligible`);
+//     if (EntryTicket) {
+//         console.log(`You are Allowed to Enter the Park`);
+//     }else{
+//         console.log(`You are not allowed to Enter the Park`)
+//     }
+// }else{
+//     console.log(`You are not Eligible`);
+// }
+
+// Switch Case
+// let num1 = 50;
+// let num2 = 25;
+
+// let opt = "*";
+
+// switch(opt){
+//     case "+":
+//         console.log(num1+num2);
+//         break;
+//     case "-":
+//         console.log(num1-num2);
+//         break;
+//     case "*":
+//         console.log(num1*num2);
+//         break;
+    
+//     case "/":
+//         console.log(num1/num2);
+//         break;
+//     default:
+//         console.log(`debug`);
+//         break;
+// }
+
+// let a = 12;
+// a <= 18 ? console.log(`You are LoggedIn`):console.log(`You are not LoggedIn`);
