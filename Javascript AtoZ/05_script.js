@@ -32,20 +32,21 @@
 // }
 
 
-let secretNo = 12;
-let countNo = 5;
-while (countNo > 0) {
-    let userNo = Number(prompt(`Enter Your Number...`));
-    if (userNo === secretNo) {
-        console.log(`Congrajulation You are Win Correct Guessed`);
-        break;
-    } else if (userNo > secretNo) {
-        console.log(`High, guess low`);
-        countNo--;
-    } else if (userNo < secretNo) {
-        console.log(`Low, guess high`);
-        countNo--;
-    } else {
-        console.log(`Invalid Number`)
-    }
-}
+// let secretNo = 12;
+// let countNo = 5;
+// while (countNo > 0) {
+//     let userNo = Number(prompt(`Enter Your Number...`));
+//     if (userNo === secretNo) {
+//         console.log(`Congrajulation You are Win Correct Guessed`);
+//         break;
+//     } else if (userNo > secretNo) {
+//         console.log(`High, guess low`);
+//         countNo--;
+//     } else if (userNo < secretNo) {
+//         console.log(`Low, guess high`);
+//         countNo--;
+//     } else {
+//         console.log(`Invalid Number`)
+//     }
+// }
+
