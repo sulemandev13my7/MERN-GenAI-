@@ -77,15 +77,48 @@
 //     console.log(name[i])
 // } 
 
-let name = "civic";
-let reverse = "";
-for (let i = name.length - 1; i >= 0; i--) {
-    console.log(name[i])
-    reverse += name[i]
-}
+// let name = "civic";
+// let reverse = "";
+// for (let i = name.length - 1; i >= 0; i--) {
+//     console.log(name[i])
+//     reverse += name[i]
+// }
 
-if (name === reverse) {
-    console.log(name, " is palindrom");
+// if (name === reverse) {
+//     console.log(name, " is palindrom");
+// } else {
+//     console.log(`not`);
+// }
+
+// let sum = 1
+// for (let i = 0; i <= 2; i++) {
+//     sum += i;
+//     console.log(sum)
+// }
+
+// let name = "Muhammad Suleman";
+// for (let i = 0; i < name.length; i++) {
+//     console.log(name[i]);
+// }
+
+// let factorial = 2;
+// for (let i = 1; i <= 5; i++) {
+//     factorial *= i;
+//     console.log(factorial)
+// }
+// console.log(factorial)
+
+// Prime Number 
+let num = 99;
+let isPrime = true;
+for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+        isPrime = false;
+        break
+    }
+}
+if (isPrime) {
+    console.log(`Prime Number`);
 } else {
-    console.log(`not`);
+    console.log(`Not Prime Number`);
 }
