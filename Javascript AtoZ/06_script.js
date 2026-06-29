@@ -80,3 +80,13 @@ for(let i = 0; i<char;i++){
     }
 }
 console.log(count);
+
+// for in * index print
+// for of * char of string or Element of array print
+// for Each
+
+let name = "Suleman";
+
+for(let n of name){
+    console.log(n)
+}
