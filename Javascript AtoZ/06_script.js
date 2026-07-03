@@ -68,25 +68,43 @@
 // let name = "I love cat cat";
 // console.log(name.replaceAll('cat','dog'))
 
-let chr = "javascript";
-console.log(chr.includes("java"));
+// let chr = "javascript";
+// console.log(chr.includes("java"));
 
 
-let char = "javascript";
-let count = 0;
-for(let i = 0; i<char;i++){
-    if(char[i]==="a"||char[i]==="e"||char[i]==="i"||char[i]==="o"||char[i]==="u"){
-        count++
-    }
-}
-console.log(count);
+// let char = "javascript";
+// let count = 0;
+// for(let i = 0; i<char;i++){
+//     if(char[i]==="a"||char[i]==="e"||char[i]==="i"||char[i]==="o"||char[i]==="u"){
+//         count++
+//     }
+// }
+// console.log(count);
 
 // for in * index print
 // for of * char of string or Element of array print
 // for Each
 
-let name = "Suleman";
+// let name = "Suleman";
 
-for(let n of name){
-    console.log(n)
-}
+// for(let n of name){
+//     console.log(n)
+// }
+
+// for(let i  in name){
+//     console.log(i);
+// }
+
+// let arr  = ['name','age','year','gender','class','batch','skill'];
+
+// for(let i in arr){
+//     console.log(i,arr[i]);
+// }
+
+// for each
+
+let arr  = ['name','age','year','gender','class','batch','skill'];
+
+arr.forEach((pro)=>{
+    console.log(pro)
+})
