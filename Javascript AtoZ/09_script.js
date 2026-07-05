@@ -100,9 +100,29 @@ let products = [{
 //     acc + val.price , 0)
 // console.log(total)
 
-let total = products.filter(pro=>{
-    if(pro.color === "b"){
-        console.log(pro) 
+// let total = products.filter(pro => {
+//     if (pro.color === "b") {
+//         console.log(pro)
+//     }
+// }).map((pro) => console.log(pro))
+// console.log(total)
+
+let foods = [{
+        title: "Pizza",
+        price: 1000
+    },
+    {
+        title: "Burger",
+        price: 500
+    },
+    {
+        title: "Burger",
+        price: 500
     }
-}).map((pro)=>console.log(pro))
-console.log(total) 
+];
+foods.map((food) => {
+    console.log(food.title, food.price)
+});
+
+let total=foods.filter((food) => food.price === 500).reduce((acc,val)=>acc +val.price,0)
+console.log(total)
