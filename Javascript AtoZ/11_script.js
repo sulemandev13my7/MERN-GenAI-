@@ -80,8 +80,8 @@
 //     body.style.backgroundColor = color; 
 // }
 
-// // let id = setInterval(()=>{
-// //     changeColor()
-// // },1000);
+// let id = setInterval(()=>{
+//     changeColor()
+// },1000);
 
-// // console.log(id)
+// console.log(id)
