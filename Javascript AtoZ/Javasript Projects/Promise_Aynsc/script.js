@@ -98,7 +98,7 @@ function displayProducts(products) {
 
     products.map((product) => {
         productContainer.innerHTML +=
-        `
+            `
            <div class="card">
                <img src="${product.image}" alt="">
                <p>${product.category}</p>
@@ -111,31 +111,31 @@ function displayProducts(products) {
 }
 
 
-searchInput.addEventListener('input',filterProducts);
-categorySelect.addEventListener('change',filterProducts);
+searchInput.addEventListener('input', filterProducts);
+categorySelect.addEventListener('change', filterProducts);
 
-priceRange.addEventListener('input',()=>{
+priceRange.addEventListener('input', () => {
     priceValue.innerText =
-    `$${priceRange.value}`
+        `$${priceRange.value}`
     filterProducts()
 });
 
-function filterProducts(){
+function filterProducts() {
     const searchValue = searchInput.value.toLowerCase()
-    const selectedCategory  = categorySelect.value;
+    const selectedCategory = categorySelect.value;
     const maxPrice = priceRange.value
 
-    const filteredProducts = allProducts.filter((product)=>{
-    const matchSearch = product.title.toLowerCase().includes(searchValue)
+    const filteredProducts = allProducts.filter((product) => {
 
-    const matchCategory = selectedCategory === "all" || product.category === selectedCategory
+        const matchSearch = product.title.toLowerCase().includes(searchValue)
 
-    const matchPrice = product.price <= maxPrice
-        
-    return (
-        matchSearch && matchCategory && matchPrice
-    )
-})
-displayProducts(filteredProducts)
+        const matchCategory = selectedCategory === "all" || product.category === selectedCategory
+
+        const matchPrice = product.price <= maxPrice
+
+        return (
+            matchSearch && matchCategory && matchPrice
+        )
+    })
+    displayProducts(filteredProducts)
 }
-
